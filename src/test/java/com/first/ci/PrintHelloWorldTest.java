@@ -3,6 +3,7 @@ package com.first.ci;
 
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertNotNull;
 
 /**
@@ -16,5 +17,6 @@ public class PrintHelloWorldTest {
         PrintHelloWorld p  = new PrintHelloWorld();
         String  s = p.print();
         assertNotNull(s);
+        assertEquals("HelloWorld", s);
     }
 }
