@@ -17,6 +17,6 @@ public class PrintHelloWorldTest {
         PrintHelloWorld p  = new PrintHelloWorld();
         String  s = p.print();
         assertNotNull(s);
-        assertEquals("HelloWorld1", s);
+        assertEquals("HelloWorld", s);
     }
 }
